@@ -1,5 +1,7 @@
 import React from 'react';
-import { Spin } from 'antd';
+import { Spin, Icon } from 'antd';
+
+const antIcon = <Icon type="loading" style={{ fontSize: 24 }} spin />;
 
 export default class PromiseRender extends React.PureComponent {
   state = {
@@ -52,7 +54,7 @@ export default class PromiseRender extends React.PureComponent {
           textAlign: 'center',
         }}
       >
-        <Spin size="large" />
+        <Spin size="large" indicator={antIcon} />
       </div>
     );
   }

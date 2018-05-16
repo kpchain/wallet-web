@@ -2,6 +2,46 @@ import { isUrl } from '../utils/utils';
 
 const menuData = [
   {
+    name: '首页',
+    icon: 'home',
+    path: 'home',
+  },
+  {
+    name: '区块浏览',
+    icon: 'eye-o',
+    path: 'blockchain',
+  },
+  {
+    name: '资产',
+    icon: 'pay-circle-o',
+    path: 'asset',
+  },
+  {
+    name: '转账',
+    icon: 'export',
+    path: 'pay',
+  },
+  {
+    name: '受托人',
+    icon: 'database',
+    path: 'delegate',
+  },
+  {
+    name: '投票',
+    icon: 'like-o',
+    path: 'vote',
+  },
+  {
+    name: '节点',
+    icon: 'fork',
+    path: 'peer',
+  },
+  {
+    name: '个人中心',
+    icon: 'user',
+    path: 'account',
+  },
+  {
     name: 'dashboard',
     icon: 'dashboard',
     path: 'dashboard',
